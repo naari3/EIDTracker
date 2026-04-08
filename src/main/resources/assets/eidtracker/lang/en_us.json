@@ -1,0 +1,23 @@
+{
+  "commands.eid.get": "Current Entity ID: %s",
+  "commands.eid.set": "Set the Current Entity ID to %s.",
+  "commands.eid.increment": "Incremented the Current Entity ID by %1$s. Current Entity ID: %2$s.",
+  "commands.eid.decrement": "Decremented the Current Entity ID by %1$s. Current Entity ID: %2$s.",
+  "commands.eid.subscribe.true": "%s subscribed to the Current Entity ID.",
+  "commands.eid.subscribe.false": "%s unsubscribed from the Current Entity ID.",
+  "commands.eid.track.start": "Tracking the Current Entity ID...",
+  "commands.eid.track.start.fail": "You're already tracking the Current Entity ID!",
+  "commands.eid.track.stop": "No longer tracking the Current Entity ID.",
+  "commands.eid.track.stop.fail": "You're not tracking the Current Entity ID!",
+  "commands.eid.track": "Current Entity ID (%s min), total: %s, (%s/tick):\n - Overflow (start to finish) in %s ticks (%sh%sm%ss)",
+  "commands.eid.track.finished": "Finished tracking the Current Entity ID.",
+  "commands.eid.fix.true": "The Current Entity ID now behaves like §eMULTIPLAYER§r.",
+  "commands.eid.fix.false": "The Current Entity ID now behaves like §eSINGLEPLAYER§r.",
+  "minihud.config.info_toggle.comment.infoCurrentEntityID": "Show the server's ENTITY_COUNTER AtomicInteger\nNote: This is only accurate with EIDTracker on the server,\nor with Carpet TIS Addition and /log entityIdCounter.\nOtherwise it is estimated on the client side,\nbased on the add entity packet, and it can\nonly detect entities within your render distance that way.",
+  "minihud.config.info_toggle.name.infoCurrentEntityID": "infoCurrentEntityID",
+  "minihud.info_line.current_entity_id": "Entity ID: %s%d%s / %s%.2f%%%s",
+  "minihud.info_line.current_entity_id.est": "Entity ID [est]: %s%d%s / %s%.2f%%%s",
+  "tweakeroo.config.feature_toggle.comment.tweakSingleplayerEntityIdFix": "Enables separation of the client and server\nENTITY_COUNTER in single player.\nThis makes Entity IDs behave as they do in multiplayer.",
+  "tweakeroo.config.feature_toggle.name.tweakSingleplayerEntityIdFix": "tweakSingleplayerEntityIdFix",
+  "tweakeroo.config.feature_toggle.prettyName.tweakSingleplayerEntityIdFix": "Singleplayer Entity ID Fix"
+}

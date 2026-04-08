@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mikarific.eidtracker.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommandSourceStackAccessor",
+    "EntityAccessor",
+    "MinecraftServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

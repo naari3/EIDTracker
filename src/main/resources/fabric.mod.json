@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "eidtracker",
+  "version": "${version}",
+  "name": "EIDTracker",
+  "description": "Utility mod for performing Entity ID Suppression.",
+  "authors": ["Mikarific"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/eidtracker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.mikarific.eidtracker.client.EIDTrackerClient"
+    ],
+    "main": [
+      "com.mikarific.eidtracker.EIDTracker"
+    ]
+  },
+  "mixins": [
+    "eidtracker.mixins.json",
+    {
+      "config": "eidtracker.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "malilib": "*",
+    "minihud": "*",
+    "tweakeroo": "*"
+  }
+}
